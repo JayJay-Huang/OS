@@ -1,0 +1,7 @@
+# telnet
+早期遠端服務，由於此通訊協定沒有加密功能，近年少用。
+
+# ssh: Secure Shell
+
+# vnc: Virtual Network Computing
+

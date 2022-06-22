@@ -1,0 +1,12 @@
+http://note.drx.tw/2008/02/ubuntu-mount.html
+
+----
+# mount
+mount [參數][裝置名稱][目錄]
+對於系統
+
+
+# 顯示說明畫面: mount -h
+
+# 卸載mount: umount
+

@@ -1,0 +1,31 @@
+rsync -auvpgot --ignore-errors --exclude-from="/home/gshuang555/sync/exclude.txt" $DIRSOURCE $DIRTARGET
+
+ -a, --archive               archive mode; equals -rlptgoD (no -H,-A,-X)
+ -u, --update                skip files that are newer on the receiver
+ -v, --verbose               increase verbosity
+ -p, --perms                 preserve permissions
+ -g, --group                 preserve group
+ -O, --omit-dir-times        omit directories from --times
+ -t, --times                 preserve modification times
+
+ --delete                delete extraneous files from dest dirs
+ --ignore-errors         delete even if there are I/O errors
+ --exclude-from=FILE     read exclude patterns from FILE
+
+--- 
+
+GNU nano 2.5.3                                           File: exclude.txt                                                                                              
+
+.DS_Store
+.picasa.ini
+Thumbs.db
+ZbThumbnail.info
+._.DS_Store
+._thumbs.db
+Desktop.ini
+lost+found
+
+
+rsync -auvpgot --ignore-errors --exclude-from="/home/gshuang555/sync/exclude.txt" /media/gshuang555/BAK21 /media/gshuang555/Data
+
+rsync -auvpgot --ignore-errors --exclude-from="/home/gshuang555/sync/exclude.txt" /media/gshuang555/Data /media/gshuang555/Bankup
